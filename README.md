@@ -21,6 +21,7 @@ The recipient, who knows the secret key ( K ), computes the MAC using the receiv
 The recipient compares the computed MAC with the received MAC. If they match, the message is authentic and unchanged.
 Security: The security of the MAC relies on the secret key ( K ) and the strength of the hash function ( H ), ensuring that an attacker cannot forge a valid MAC without knowledge of the key.
 
+
 Program:
 
 ```c
@@ -80,6 +81,7 @@ int main() {
 ```
 
 Output:
+
 <img width="869" height="328" alt="image" src="https://github.com/user-attachments/assets/afd5c296-a2d5-486b-80f9-2ac0dd06b41e" />
 
 
